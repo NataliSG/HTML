@@ -1,0 +1,21 @@
+header {
+  height: 40px;
+  background-color: darkturquoise;
+}
+.navigation {
+  height: 40px;
+  color: green;
+  margin: 16px;
+  float: left;
+}
+.content {
+  background-color: beige;
+  height: 5000px;
+}
+.head {
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  calc(100% - 200px);
+}
