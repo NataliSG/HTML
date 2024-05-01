@@ -1,6 +1,8 @@
 header {
   height: 40px;
   background-color: darkturquoise;
+  position: fixed;
+  width: 100%;
 }
 .navigation {
   height: 40px;
@@ -17,5 +19,38 @@ header {
   width: 200px;
   height: 200px;
   position: absolute;
-  calc(100% - 200px);
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+}
+.ear_right,
+.ear_left {
+  background-color: brown;
+  width: 40px;
+  height: 60px;
+  position: relative;
+}
+.ear_right {
+  left: 200px;
+  bottom: 60px;
+}
+.ear_left {
+  bottom: 120px;
+  right: 40px;
+}
+.eye_right,
+.eye_left {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.eye_left {
+  position: relative;
+  bottom: 70px;
+  left: 40px;
+}
+.eye_right {
+  position: relative;
+  bottom: 40px;
+  left: 120px;
 }

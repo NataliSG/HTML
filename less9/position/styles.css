@@ -5,11 +5,11 @@
 }
 .absolute-parent {
   position: absolute;
-  right: 20px;
+  bottom: 20px;
   left: 50px;
 }
 .fixed-parent {
   position: fixed;
-  bottom: 20px;
-  left: 30px;
+  top: 20px;
+  right: 30px;
 }
